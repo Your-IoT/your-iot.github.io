@@ -9,38 +9,74 @@
 
 <url>
   <loc>https://your-iot.github.io/</loc>
-  <lastmod>2024-12-19T22:02:58+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2024-12-20T10:39:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://your-iot.github.io/Watmonitor/</loc>
-  <lastmod>2024-12-19T22:09:17+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2024-12-20T15:53:40+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://your-iot.github.io/DOMINATOR/</loc>
-  <lastmod>2024-12-20T10:37:04+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2024-12-20T15:51:51+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://your-iot.github.io/cookie-policy.html</loc>
-  <lastmod>2024-12-19T22:02:58+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2024-12-20T10:39:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>https://your-iot.github.io/Watmonitor/</loc>
-  <lastmod>2024-12-19T22:09:17+00:00</lastmod>
-  <priority>1.00</priority>
+  <loc>https://your-iot.github.io/Watmonitor/index.html</loc>
+  <lastmod>2024-12-20T15:53:40+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://your-iot.github.io/Watmonitor/pt/</loc>
+  <lastmod>2024-12-20T15:53:40+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://your-iot.github.io/Watmonitor/hi/</loc>
+  <lastmod>2024-12-20T15:53:40+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://your-iot.github.io/DOMINATOR/index.html</loc>
+  <lastmod>2024-12-20T15:51:51+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://your-iot.github.io/DOMINATOR/ja/</loc>
-  <lastmod>2024-12-20T10:37:04+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2024-12-20T15:51:51+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://your-iot.github.io/DOMINATOR/de/</loc>
-  <lastmod>2024-12-20T10:37:04+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2024-12-20T15:51:51+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
+<url>
+  <loc>https://your-iot.github.io/Watmonitor/pt/index.html</loc>
+  <lastmod>2024-12-20T15:53:40+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://your-iot.github.io/Watmonitor/hi/index.html</loc>
+  <lastmod>2024-12-20T15:53:40+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://your-iot.github.io/DOMINATOR/ja/index.html</loc>
+  <lastmod>2024-12-20T15:51:51+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://your-iot.github.io/DOMINATOR/de/index.html</loc>
+  <lastmod>2024-12-20T15:51:51+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+
 
 </urlset>
