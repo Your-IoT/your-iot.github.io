@@ -43,6 +43,11 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
+  <loc>https://your-iot.github.io/Watmonitor/fr/</loc>
+  <lastmod>2024-12-20T15:53:40+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
   <loc>https://your-iot.github.io/Watmonitor/ar/</loc>
   <lastmod>2024-12-20T15:53:40+00:00</lastmod>
   <changefreq>daily</changefreq>
@@ -69,6 +74,11 @@
 </url>
 <url>
   <loc>https://your-iot.github.io/Watmonitor/hi/index.html</loc>
+  <lastmod>2024-12-20T15:53:40+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://your-iot.github.io/Watmonitor/fr/index.html</loc>
   <lastmod>2024-12-20T15:53:40+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
