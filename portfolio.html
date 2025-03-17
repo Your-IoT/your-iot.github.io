@@ -105,13 +105,15 @@
     <div class="container">
         <header class="header">
             <h1>Vývoj firmvéru pre mikrokontroléry</h1>
-<p>Ponúkam zákazkové programovanie mikrokontrolérov ESP32, ESP8266 (Espressif Systems) a ATmega (Arduino), ATtiny na mieru podľa zadania. Firmvér vyvíjam v ESP-IDF v5.X / Arduino Core, najmä pre prototypovanie.
+<p style="text-align: justify;">
+Ponúkam zákazkové programovanie mikrokontrolérov ESP32, ESP8266 (Espressif Systems) a ATmega (Arduino), ATtiny na mieru podľa zadania. Firmvér vyvíjam v ESP-IDF v5.X / Arduino Core, najmä pre prototypovanie.
 Mám skúsenosť s environmentálnym zberom dát zo senzorov, smerovým a rýchlostným riadením DC motorov, ovládaním záťaže skrz relé, polovodiče.
 Pracoval som aj na zložitejších projektoch, ktoré vyžadovali integráciu hardvéru do už existujúceho riešenia pre pridanie funkcionality.
-K firmvéru viem dodať aj schému konkrétneho zapojenia. Konzultačná činnosť v IoT, oživovanie hardvéru.  
+K firmvéru viem dodať aj schému konkrétneho zapojenia, oživovanie hardvéru.  
 Mám skúsenosť s WiFi, Bluetooth (Classic), BLE, LoRa (PPP), LoRaWAN, Sigfox, Ethernet, PHY Ethernet, RF technológiami. 
 Protokoly HTTP(S), MQTT(S) pre klient-server architektúru. ESP-NOW, UDP a iné... 
-Možné priamo prepojenie so systémom zákazníka, alebo na 3rd party službu (IoT cloudové platformy).</p>
+Možné priamo prepojenie so systémom zákazníka, alebo na 3rd party službu (IoT cloudové platformy).
+</p>
         </header>
         <section class="section portfolio">
             <h2>Portfólio projektov</h2>
@@ -157,6 +159,33 @@ Možné priamo prepojenie so systémom zákazníka, alebo na 3rd party službu (
                     Projekt bol realizovaný na diaľku podľa požiadaviek zákazníka, ktorý dodal identifikátory, plaintext komunikáciu, napäťové úrovne, i baudrate komunikáci zo Saleae analyzátora.
                     </p>
                     <a href="https://deadawp.blog.sector.sk/blogclanok/13225/hack-rs232-arduino-uart.htm">Detail</a>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Tester vstrekovačov</h3>
+                    <p>
+Tester vstrekovačov s využitím Arduina Nano a MOSFET tranzistora IRF520 na DPS RFID DOMINATOR 2.0.
+Vytváranie pulzov s dĺžkou niekoľko milisekúnd pre otvorenie vstrekovača. Súmerné vstrekovanie paliva pre získanie informačných výsledkov o množstve paliva na vstrekovač.
+                    </p>
+                    <a href="https://deadawp.blog.sector.sk/blogclanok/13445/tester-vstrekovacov-s-irf520.htm">Detail</a>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Šum v obrázkoch</h3>
+                    <p>
+Implementácia v prostredí MATLAB. Generovanie náhodného šumu pre jednotlivé bity obrázka v 8-bitovej grayscale palete farieb.
+Vykreslenie vplyvu šumu na každý bit, od LSB po MSB reprezentácie pixelu. Vykreslenie obrázkov s vplyvom šumu na každý bit reprezentácie a finálneho obrázka so spočítaným šumom.
+Matematický výpočet PSNR - špičkového výkonu obrazu voči šumu a MSE - strednej kvadratickej chyby.
+                    </p>
+                    <a href="https://deadawp.blog.sector.sk/blogclanok/13161/nahodny-sum-v-obrazkoch-matlab.htm">Detail</a>
+                </div>
+                
+                <div class="portfolio-item">
+                    <h3>SIMCom A7670E a Google Tabuľky</h3>
+                    <p>
+Prenos dát z váhy, ktorá údaje zasiela cez UART do host mikrokontroléra po naskenovaní NFC tagu. 
+Spracovanie údajov, parsing hodnôt. Zápis do Google tabuliek skrz 2G/LTE modul SIMCom A7670E s využitím Google Scriptu. 
+PHP script ako proxy server na forward dát z HTTP na HTTPS. Úprava autorizácie oprávnení zápisu.
+                    </p>
+                    <a href="https://deadawp.blog.sector.sk/blogclanok/13463/http-post-request-simcom-a7670e.htm">Detail</a>
                 </div>
             </div>
         </section>
