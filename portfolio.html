@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vývoj firmvéru - ESP32, ESP8266, Arduino</title>
+    <title>Zákazkový vývoj firmvéru - ESP32 IoT</title>
 <meta name="description" content="Vývoj firmvéru pre ESP32, ESP8266, Arduino. Tvorba prototypov, IoT riešenia, WiFi, Bluetooth, LoRa, Sigfox, Ethernet, konzultácie a viac.">
 <meta name="keywords" content="ESP32, ESP8266, Arduino, IoT, firmvér, vývoj, WiFi, Bluetooth, LoRa, Sigfox, MQTT, hardvér, elektronika, mikrokontroléry, reverzné inžinierstvo, OTA, FreeRTOS, embedded systémy">
 <meta name="author" content="Your-IoT Martin Chlebovec">
@@ -161,7 +161,7 @@ Možné priamo prepojenie so systémom zákazníka, alebo na 3rd party službu (
                     <a href="https://deadawp.blog.sector.sk/blogclanok/13225/hack-rs232-arduino-uart.htm">Detail</a>
                 </div>
                 <div class="portfolio-item">
-                    <h3>Tester vstrekovačov</h3>
+                    <h3>Tester vstrekovačov IRF520</h3>
                     <p>
 Tester vstrekovačov s využitím Arduina Nano a MOSFET tranzistora IRF520 na DPS RFID DOMINATOR 2.0.
 Vytváranie pulzov s dĺžkou niekoľko milisekúnd pre otvorenie vstrekovača. Súmerné vstrekovanie paliva pre získanie informačných výsledkov o množstve paliva na vstrekovač.
@@ -180,13 +180,12 @@ Matematický výpočet PSNR - špičkového výkonu obrazu voči šumu a MSE - s
                 </div>
                 
                 <div class="portfolio-item">
-                    <h3>SIMCom A7670E a Google Tabuľky</h3>
+                    <h3>LoRa monitor 12V batérie</h3>
                     <p>
-Prenos dát z váhy, ktorá údaje zasiela cez UART do host mikrokontroléra po naskenovaní NFC tagu. 
-Spracovanie údajov, parsing hodnôt. Zápis do Google tabuliek skrz 2G/LTE modul SIMCom A7670E s využitím Google Scriptu. 
-PHP script ako proxy server na forward dát z HTTP na HTTPS. Úprava autorizácie oprávnení zápisu.
+Vzdialené monitorovanie napätia 12V batérie s dvojicou LoRa zariadení. Prenos dát skrz LoRa PPP, jednosmerný prenos. Prijímač s WiFi konektivitou pre prenos dát do SQL databázy Batmonitora po HTTPS, alebo do IoT cloudovej služby po MQTT.
+Solárne nabíjanie vysielača a prijímača, napájanie Li-pol / Li-Ion batériou. Low-power optimalizácia. Deep sleep u vysielača + sleep LoRa modemu, light sleep u prijímača s prebudením prijímača skrz interrupt DIO0 na LoRa module. 433 / 868 MHz friendly.
                     </p>
-                    <a href="https://deadawp.blog.sector.sk/blogclanok/13463/http-post-request-simcom-a7670e.htm">Detail</a>
+                    <a href="https://deadawp.blog.sector.sk/blogclanok/13490/monitorovanie-napatia-12v-baterie.htm">Detail</a>
                 </div>
             </div>
         </section>
