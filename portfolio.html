@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zákazkový vývoj firmvéru - ESP32 IoT</title>
-<meta name="description" content="Vývoj firmvéru pre ESP32, ESP8266, Arduino. Tvorba prototypov, IoT riešenia, WiFi, Bluetooth, LoRa, Sigfox, Ethernet, konzultácie a viac.">
-<meta name="keywords" content="ESP32, ESP8266, Arduino, IoT, firmvér, vývoj, WiFi, Bluetooth, LoRa, Sigfox, MQTT, hardvér, elektronika, mikrokontroléry, reverzné inžinierstvo, OTA, FreeRTOS, embedded systémy">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Zákazkový vývoj firmvéru - ESP32 IoT</title>
+        <link href="https://i.imgur.com/ibpLxAB.png" rel="icon">
+    <link href="https://i.imgur.com/ibpLxAB.png" rel="apple-touch-icon">
+<meta name="description" content="Vývoj firmvéru pre ESP32, ESP8266, Arduino. Tvorba hardvérových prototypov, IoT riešenia, WiFi, Bluetooth, LoRa, Sigfox, Ethernet, konzultácie a viac.">
+<meta name="keywords" content="ESP32, ESP8266, Arduino, IoT, firmvér, vývoj, WiFi, Bluetooth, LoRa, LoRaWAN, Sigfox, MQTT, hardvér, elektronika, mikrokontroléry, reverzné inžinierstvo, OTA, FreeRTOS, embedded systémy, projekt">
 <meta name="author" content="Your-IoT Martin Chlebovec">
 <meta name="robots" content="index, follow">
-
+<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
 <!-- Open Graph pre Facebook a iné sociálne siete -->
-<meta property="og:title" content="Vývoj firmvéru - ESP32, ESP8266, Arduino | Your-IoT">
-<meta property="og:description" content="Ponúkam profesionálny vývoj firmvéru a riešení pre mikrokontroléry ESP32, ESP8266, Arduino a iné. Prototypovanie, reverse engineering, konzultácie.">
+<meta property="og:title" content="Zákazkový vývoj firmvéru - ESP32 IoT">
+<meta property="og:description" content="Vývoj firmvéru pre ESP32, ESP8266, Arduino. Tvorba hardvérových prototypov, IoT riešenia, WiFi, Bluetooth, LoRa, Sigfox, Ethernet, konzultácie a viac.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://your-iot.github.io/portfolio.html">
 <link rel="canonical" href="https://your-iot.github.io/portfolio.html">
@@ -19,11 +22,9 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Vývoj firmvéru - ESP32, ESP8266, Arduino | Your-IoT">
-<meta name="twitter:description" content="Profesionálne IoT riešenia s ESP32, ESP8266 a Arduino. Vývoj, prototypovanie, WiFi, Bluetooth, LoRa, Sigfox, konzultácie.">
+<meta name="twitter:title" content="Zákazkový vývoj firmvéru - ESP32 IoT">
+<meta name="twitter:description" content="Vývoj firmvéru pre ESP32, ESP8266, Arduino. Tvorba hardvérových prototypov, IoT riešenia, WiFi, Bluetooth, LoRa, Sigfox, Ethernet, konzultácie a viac.">
 
-<!-- Favicon -->
-<link rel="icon" type="image/png" href="https://martinius96.github.io/termostat-ethernet/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         body {
@@ -106,13 +107,13 @@
         <header class="header">
             <h1>Vývoj firmvéru pre mikrokontroléry</h1>
 <p style="text-align: justify;">
-Ponúkam zákazkové programovanie mikrokontrolérov ESP32, ESP8266 (Espressif Systems) a ATmega (Arduino), ATtiny na mieru podľa zadania. Firmvér vyvíjam v ESP-IDF v5.X / Arduino Core, najmä pre prototypovanie.
-Mám skúsenosť s environmentálnym zberom dát zo senzorov, smerovým a rýchlostným riadením DC motorov, ovládaním záťaže skrz relé, polovodiče.
-Pracoval som aj na zložitejších projektoch, ktoré vyžadovali integráciu hardvéru do už existujúceho riešenia pre pridanie funkcionality.
-K firmvéru viem dodať aj schému konkrétneho zapojenia, oživovanie hardvéru.  
+Ponúkam zákazkové programovanie mikrokontrolérov ESP32, ESP8266 (Espressif Systems) a ATmega (Arduino), ATtiny na mieru podľa zadania. Firmvér vyvíjam v ESP-IDF v5.X / Arduino Core, najmä pre prototypovanie a malé projekty.
+Mám skúsenosť s environmentálnym zberom dát zo senzorov, smerovým a rýchlostným riadením DC motorov, ovládaním záťaže skrz relé, využitím polovodičov - tranzistory, MOSFETY.
+Pracoval som aj na zložitejších projektoch, ktoré vyžadovali integráciu hardvéru do už existujúceho riešenia pre pridanie funkcionality so zachovaním pôvodného ovládania.
+K firmvéru viem dodať aj schému konkrétneho zapojenia, zrealizovať aj oživenie hardvéru.  
 Mám skúsenosť s WiFi, Bluetooth (Classic), BLE, LoRa (PPP), LoRaWAN, Sigfox, Ethernet, PHY Ethernet, RF technológiami. 
 Protokoly HTTP(S), MQTT(S) pre klient-server architektúru. ESP-NOW, UDP a iné... 
-Možné priamo prepojenie so systémom zákazníka, alebo na 3rd party službu (IoT cloudové platformy).
+Možné priamo prepojenie so systémom zákazníka, alebo na 3rd party službu (IoT cloudové platformy typu Blynk, ThingsBoard...).
 </p>
         </header>
         <section class="section portfolio">
@@ -121,8 +122,8 @@ Možné priamo prepojenie so systémom zákazníka, alebo na 3rd party službu (
                 <div class="portfolio-item">
                     <h3>Watmonitor</h3>
                     <p>Vlastné lightweight webové rozhranie hladinomera v PHP, HTML5, Boostrap, ktoré vizualizuje dáta používateľovi a prijíma dáta zo senzorového uzla. 
-                    Vzorové zdrojové kódy pre ESP32, ESP8266, Arduino s WiFi / Ethernet konektivitou a ultrazvukovými senzormi vzdialenosti. ULP, OTA, FreeRTOS implementácie.
-                    Možno použiť industriálne riešenie s inou senzorovou technológiou, rozhranie je univerzálne.</p>
+                    Vzorové zdrojové kódy pre ESP32, ESP8266, Arduino s WiFi / Ethernet konektivitou a ultrazvukovými senzormi vzdialenosti, či laserovými (ToF). ULP, OTA, FreeRTOS implementácie.
+                    Možno použiť aj industriálne senzorové riešenie (aj iný typ merania), rozhranie je univerzálne pre diferenčné / celkové meranie hladiny vody, či výšky materiálu.</p>
                     <a href="https://your-iot.github.io/Watmonitor/sk/">Detail</a>
                 </div>
                 <div class="portfolio-item">
